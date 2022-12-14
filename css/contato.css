@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
+
+header{
+    background-color: #20202F;
+    padding: 20px 0;
+}
+
+.caixa-header{
+    position: relative;
+    max-width: 940px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 20%;
+}
+nav{
+    position: absolute;
+    top: 61.5px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 30px;
+
+}
+nav a {
+    text-transform: uppercase;
+    color: #E4B95B;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #C95E3F;
+    text-decoration: underline;
+}
+
+main{
+    max-width: 940px;
+    margin: 0 auto;
+    font-family: 'Saira', sans-serif;
+}
+
+h2{
+    font-size: 24px;
+    margin: 40px 0 0;
+    font-weight: bold;
+}
+
+p{
+    font-size: 18px;
+    margin: 20px 0 0;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.input-texto{
+    display: block;
+    margin: 0 0 20px;
+    padding: 1em;
+    width: 40%;
+}
+
+fieldset{
+    margin: 15px 0 0;
+}
+
+.checkbox{
+    margin: 20px 0px;
+}
+
+.enviar{
+    width: 40%;
+    padding:  15px 0;
+    background: #272738;
+    color: #E4B95B;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: #121220;
+    transform: scale(1.2);
+}
+
+footer{
+    text-align: center;
+    background-color: #E4B95B;
+    padding: 30px 0;
+}
+
+.caixa-footer{
+    width: 940px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.copyright{
+    text-align: left;
+    color: #20202F;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 480px){
+    .caixa-header, .caixa-footer, .form{
+        width: auto;
+    }
+    .input-texto{
+        width: 77%;
+    }
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    nav li{
+        margin: 0 15px 0 15px;
+    }
+    .navegacao{
+        margin:2em 0 0;
+    }
+}

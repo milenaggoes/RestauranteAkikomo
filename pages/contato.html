@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato Akikomo</title>
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/contato.css">
+    <link rel="shortcut icon" href="../img/poke.png">
+</head>
+<body>
+    <header>
+        <div class="caixa-header">
+            <h1><img class="logo" src="../img/Logotipo-azul.jpg" alt="Logo do restaurante Akikomo"></h1> 
+                <nav>
+                    <ul class="navegacao">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./cardapio.html">Cardápio</a></li>
+                        <li><a href="./contato.html">Contato</a></li>
+                    </ul>   
+                </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <h2>Está com alguma dúvida? Mande uma mensagem</h2>
+        <p>Nos podemos ajudar! Preencha o formulário abaixo, em breve retornaremos o contato.</p>
+        <form>
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" class="input-texto" required>
+
+            <label for="
+            email">Email</label>
+            <input type="email" id="email" class="input-texto" required placeholder="seuemail@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-texto" required placeholder="(XX)XXXXX-XXXX">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" class="input-texto" cols="55" rows="10" required></textarea>
+            
+            <fieldset>
+            <legend>Como prefere receber nosso contato?</legend>
+
+            <label for="radio-email"><input type="radio" name="contato" id="radio-email" class="input-selecionar"> Email</label>
+            
+            <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone">Telefone</label>
+
+            <label for="radio-wpp"><input type="radio" name="contato" id="radio-wpp" checked >Whatsapp</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Em qual horário prefere der atendido?</legend>
+                <select>
+                    <option>Sem preferência</option>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+
+            <label><input type="checkbox" class="checkbox"> Gostaria de receber nossas novidades por e-mail?</label>
+
+            <input type="submit" value="Enviar formulário" class="enviar">
+
+        </form>
+    </main>
+
+    <footer>
+        <div class="caixa-footer">
+            <img class="logo" src="../img/Logotipo-bege.jpg" alt="Logo do restaurante Akikomo">
+            <p class="copyright"> &copy; Copyright Restaurante Akikomo - 2022</p>
+        </div>
+    </footer>
+</body>
+</html>
