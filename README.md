@@ -1,6 +1,6 @@
 # Restaurante Akikomo
 
-![Akikomo Logo](akikomo_logo.png)
+![Akikomo Logo](./img/Logotipo-azul.jpg)
 
 Bem-vindo ao repositório da Landing Page do restaurante Akikomo, um restaurante de comida japonesa que busca oferecer uma experiência gastronômica única e autêntica. Neste projeto, você encontrará uma página estática que apresenta informações sobre a localização do restaurante, o cardápio e um formulário estático para contato.
 
