@@ -20,7 +20,7 @@ O restaurante Akikomo tem a missão de proporcionar aos seus clientes uma verdad
 
 ## Demonstração
 
-Você pode conferir uma demonstração da Landing Page do Akikomo [aqui](https://akikomo-landing-page-demo.com).
+Você pode conferir uma demonstração da Landing Page do Akikomo [aqui](https://milenaggoes.github.io/RestauranteAkikomo/).
 
 ## Recursos
 
