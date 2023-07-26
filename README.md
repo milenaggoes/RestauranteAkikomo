@@ -12,7 +12,6 @@ Bem-vindo ao repositório da Landing Page do restaurante Akikomo, um restaurante
 - [Pré-requisitos](#pré-requisitos)
 - [Instruções de Uso](#instruções-de-uso)
 - [Contribuição](#contribuição)
-- [Licença](#licença)
 
 ## Visão Geral
 
@@ -47,10 +46,6 @@ Em seguida, abra o arquivo `index.html` em seu navegador.
 
 Contribuições são bem-vindas! Se você deseja reportar problemas, sugerir melhorias ou enviar correções, fique à vontade para abrir um "Issue" neste repositório. Se preferir, você também pode fazer um "Fork" do repositório, fazer suas alterações e enviar um "Pull Request" para revisão.
 
-## Licença
-
-Este projeto está licenciado sob a [Licença MIT](LICENSE), o que significa que você pode utilizá-lo livremente, modificar e distribuir conforme os termos da licença.
-
 ---
 
-🍣🍱
+Aproveite! 🍣🍱
